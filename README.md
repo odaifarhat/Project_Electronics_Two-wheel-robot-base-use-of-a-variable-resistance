@@ -144,23 +144,40 @@ void loop()
   
   // If button is pressed - change rotation direction.
   
-  if (pressed == true  & rotDirection == 0) {
+  if (pressed == true  & rotDirection == 0)
+  
+  {
     digitalWrite(in1, HIGH);
+    
     digitalWrite(in2, LOW);
+    
     digitalWrite(in3, HIGH);
+    
     digitalWrite(in4, LOW);
+    
     rotDirection = 1;
+    
     delay(20);
+    
   }
   
    // If button is pressed - change rotation direction.
   
-  if (pressed == false & rotDirection == 1) {
+  if (pressed == false & rotDirection == 1)
+  
+  {
     digitalWrite(in1, LOW);
+    
     digitalWrite(in2, HIGH);
+    
     digitalWrite(in3, LOW);
+    
     digitalWrite(in4, HIGH);
+    
     rotDirection = 0;
+    
     delay(20);
+    
   }
+  
 }
