@@ -148,15 +148,10 @@ void loop()
   
   {
     digitalWrite(in1, HIGH);
-    
     digitalWrite(in2, LOW);
-    
     digitalWrite(in3, HIGH);
-    
     digitalWrite(in4, LOW);
-    
     rotDirection = 1;
-    
     delay(20);
     
   }
@@ -167,15 +162,10 @@ void loop()
   
   {
     digitalWrite(in1, LOW);
-    
     digitalWrite(in2, HIGH);
-    
     digitalWrite(in3, LOW);
-    
     digitalWrite(in4, HIGH);
-    
     rotDirection = 0;
-    
     delay(20);
     
   }
